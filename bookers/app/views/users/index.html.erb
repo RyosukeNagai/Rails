@@ -1,0 +1,15 @@
+<div class="user">
+<h1>User info</h1>
+<p>name</p>
+<p>introduction</p>
+<%= link_to"編集icon" %>
+</div>
+
+<div class="new">
+	<h1>New book</h1>
+	<p>title</p>
+	<p>Opinion</p>
+	<%= link_to"Create Book" %>
+</div>
+
+<%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
